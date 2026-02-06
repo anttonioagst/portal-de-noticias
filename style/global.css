@@ -2,4 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}ini
+}
+
+:root {
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+  --bg-color: #0f172a;
+  --stroke-color: --line-height: #1e293b;
+  --text-color-primary: #f1f5ff;
+  --text-color-secondary: #cbd5e1;
+  font-family: "Archivo", sans-serif;
+  --text: 16px/1.5var (--font-family);
+  --text-h1: Extra-Bold 24px/135% var(--font-family);
+  --text-h2: Extra-Bold 16px/140% var(--font-family);
+  --text-h3: Extra-Bold 14px/140% var(--font-family);
+  --text-span: 14px/145% var(--font-family);
+  --text-paragraph: 14px/160% var(--font-family);
+}
