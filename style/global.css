@@ -11,12 +11,12 @@
   --stroke-color: #334155;
   --text-color-primary: #f1f5ff;
   --text-color-secondary: #cbd5e1;
-  font-family: "Archivo", sans-serif;
 
-  --text: 16px/1.5var (--font-family);
-  ---h1: Extra-Bold 24px/135% var(--font-family);
-  ---h2: Extra-Bold 16px/140% var(--font-family);
-  ---h3: Extra-Bold 14px/140% var(--font-family);
+  --font-family: "Archivo", sans-serif;
+  --text: 16px/1.5 var(--font-family);
+  --h1: 800 24px/135% var(--font-family);
+  --h2: 800 16px/140% var(--font-family);
+  --h3: 800 14px/140% var(--font-family);
   --text-span: 14px/145% var(--font-family);
   --text-paragraph: 14px/160% var(--font-family);
 }
@@ -54,4 +54,16 @@ img {
 
 main {
   margin-top: 40px;
+}
+
+.content-tag {
+  display: inline-block;
+  background-color: var(--brand-color-dark);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font: 500 10px/1.2 var(--font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-color-primary);
+  box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
 }
