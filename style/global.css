@@ -12,10 +12,32 @@
   --text-color-primary: #f1f5ff;
   --text-color-secondary: #cbd5e1;
   font-family: "Archivo", sans-serif;
+
   --text: 16px/1.5var (--font-family);
-  --text-h1: Extra-Bold 24px/135% var(--font-family);
-  --text-h2: Extra-Bold 16px/140% var(--font-family);
-  --text-h3: Extra-Bold 14px/140% var(--font-family);
+  ---h1: Extra-Bold 24px/135% var(--font-family);
+  ---h2: Extra-Bold 16px/140% var(--font-family);
+  ---h3: Extra-Bold 14px/140% var(--font-family);
   --text-span: 14px/145% var(--font-family);
   --text-paragraph: 14px/160% var(--font-family);
+}
+
+body {
+  font: var(--text);
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color-light);
+}
+
+h1,
+h2,
+h3 {
+  font: inherit;
 }
