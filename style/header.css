@@ -10,7 +10,7 @@ header {
   }
 }
 
-nav {
+div {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -20,4 +20,5 @@ nav {
   padding-block: 14px;
   border: solid 1px var(--stroke-color);
   border-inline: none; /*retira as bordas laterais*/
+  justify-content: space-between;
 }
