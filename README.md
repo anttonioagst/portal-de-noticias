@@ -128,7 +128,7 @@ portal-de-noticias/
 
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Antonio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/antonio-augusto/)](https://www.linkedin.com/in/antonio-augusto/)
+[![Linkedin Badge](https://img.shields.io/badge/-Antonio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anttoniagst/)](https://www.linkedin.com/in/antonio-augusto/)
 [![Gmail Badge](https://img.shields.io/badge/-email@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:email@gmail.com)](mailto:email@gmail.com)
 
 ---
